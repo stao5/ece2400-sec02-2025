@@ -22,3 +22,7 @@ jobs:
     - name: Test Avg Main
       working-directory: ${{github.workspace}}/build
       run: ./src/avg-main && ./src/avg-main | grep 15
+
+      - name: Test square-adhoc
+      working-directory: ${{github.workspace}}/build
+      run: ./src/square-adhoc && ./src/square-adhoc | grep 100
