@@ -1,5 +1,3 @@
 #include "square.h"
 
-int square(int x) {
-  return x * x * x;
-}
+int square(int x) { return x * x; }
